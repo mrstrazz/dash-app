@@ -16,8 +16,7 @@ fig = px.scatter(
     color="continent",
     hover_name="country",
     log_x=True,
-    title="Life Expectancy vs GDP per Capita (2007)",
-    trendline="ols"  # Add ordinary least squares regression
+    trendline="ols"
 )
 
 
